@@ -1,0 +1,30 @@
+body {
+    font-family:Verdana;
+    font-size:12px;
+	background-color:#555 !important;
+}
+h1 {
+    font-size:14px;
+    font-weight:bold;
+}
+#output>canvas {
+    position: fixed;
+	bottom: 20px;
+    right: 20px;
+	border:1px solid black;
+    z-index: 1052;
+}
+#source {
+	position: fixed;
+	top: 20px;
+    left: 20px;
+	z-index: 1051;
+	border:1px solid white;
+}
+#ctrls {
+	position: fixed;
+	bottom: 20px;
+    left: 20px;
+	z-index: 1053;
+	border:1px solid white;
+}
